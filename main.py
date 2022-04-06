@@ -14,9 +14,11 @@ def hello_world():
   symbol4 = data[9]['currencies']['TRY']['symbol']
 
   currSymbols.append(symbol1)
+  
   currSymbols.append(symbol2)
   currSymbols.append(symbol3)
   currSymbols.append(symbol4)
+  
   
   
   bar_chart = pygal.Bar()
